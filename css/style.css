@@ -1,0 +1,109 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.imgfilter {
+    filter: brightness(35%) blur(5px);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: -15px;
+    z-index: -1;
+}
+
+.leftside {
+    text-align: center;
+}
+
+.rightside {
+    background-color: #e1e1e1;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+img.profile {
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 1.5rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+table.contact {
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+
+a {
+    color: white;
+}
+
+td {
+    padding: 5px;
+}
+
+td.icon {
+    width: 35%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+td.text {
+    text-align: left;
+}
+
+ul.striped {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+ul.striped > li {
+    padding: 0.8rem 2rem ;
+}
+
+ul.striped i {
+    margin-right: 1.5rem;
+}
+
+ul.striped > li:nth-of-type(even) {
+    background-color: #e9e9f9 ;
+}
+
+table.resume-content {
+    margin: 1rem 2rem 1rem 1.2rem;
+    width: 100%;
+}
+
+td.align-left {
+    text-align: left;
+}
+
+td.align-right {
+    text-align: right;
+}
+
+.content-title {
+    font-weight: bold;
+}
