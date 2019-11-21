@@ -1,2 +1,2 @@
 # tgao.me
-Personal resume site
+Personal resume site in HTML, CSS, Bootstrap
